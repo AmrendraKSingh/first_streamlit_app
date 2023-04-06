@@ -49,7 +49,7 @@ except URLError as e:
   
 
 # To prevent running the code here
-streamlit.stop()
+# streamlit.stop()
 
 
  # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
