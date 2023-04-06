@@ -47,3 +47,9 @@ my_data_rows = my_cur.fetchall();
 streamlit.header("The fruit load list contains") ;
 # streamlit.text(my_data_row);
 streamlit.dataframe(my_data_rows);
+
+#Allow the end user to add a fruit to the list
+streamlit.text('What fruit would you like to add');
+add_my_furit = streamlit.text_input();
+streamlit.write('Thanks for adding ', add_my_furit)
+
